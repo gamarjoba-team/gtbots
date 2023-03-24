@@ -12,5 +12,5 @@ All bots written in JavaScript (ECMAScript 5.1).
 - `onWebhook(name, func(chatId, content))` - register callback for new webhooks (not implemented yet)
 - `onGroupChatJoin(func(chatId))` - register callback for hello message (not implemented yet)
 
-### utils
+### Utils
 - `md5(text)` - calculate md5 hash
