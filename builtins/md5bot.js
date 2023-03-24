@@ -1,14 +1,14 @@
-gtnode.updateProfile({
+updateProfile({
     name: "MD5 Bot",
     description: "This bot calculated MD5 hash value for each given message",
     direct: true,
     groups: false
 });
 
-gtnode.onDirectMessage(function (message) {
+onDirectMessage(function (message) {
     if (message.text === "") {
-        gtnode.sendMessage(message.chatId, "Your message is empty");
+        sendMessage(message.chatId, "Your message is empty");
     } else {
-        gtnode.sendMessage(message.chatId, gtutils.md5(message.text));
+        sendMessage(message.chatId, md5(message.text));
     }
 });

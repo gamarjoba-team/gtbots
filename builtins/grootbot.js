@@ -13,14 +13,14 @@ var responses = [ // taken from https://d23.com/how-to-say-i-am-groot-in-differe
     "Mimi ni Groot"
 ];
 
-gtnode.updateProfile({
+updateProfile({
     name: "Groot Bot",
     description: "This bot is Groot.",
     direct: true,
     groups: false
 });
 
-gtnode.onDirectMessage(function (message) {
+onDirectMessage(function (message) {
     var response = responses[Math.floor(Math.random() * responses.length)];
-    gtnode.sendMessage(message.chatId, response);
+    sendMessage(message.chatId, response);
 });

@@ -1,16 +1,16 @@
 # Built-in GTNode Bots
-All bots written in javascript.
+All bots written in JavaScript (ECMAScript 5.1).
 
-Used https://github.com/dop251/goja interpreter with additional functions.
+## Available functions
 
-## Internal API
+### API
+- `updateProfile({name, description, direct, groups})` - update bot profile
+- `sendMessage(chatId, text)` - send message to chat
 
-## gtnode object
-- `gtnode.updateProfile({name, description, direct, groups})` - update bot profile (WIP)
-- `gtnode.sendMessage(chatId, text)` - send message to chat (WIP)
-- `gtnode.onDirectMessage(func(message))` - register callback for new messages (WIP)
-- `gtnode.onWebhook(name, func(chatId, content))` - register callback for new webhooks (WIP)
-- `gtnode.onGroupChatJoin(func(chatId))` - register callback for hello message (WIP)
+### Events
+- `onDirectMessage(func(message))` - register callback for new messages
+- `onWebhook(name, func(chatId, content))` - register callback for new webhooks (not implemented yet)
+- `onGroupChatJoin(func(chatId))` - register callback for hello message (not implemented yet)
 
-## gtutils object
-- `gtutils.md5(text)` - calculate md5 hash (WIP)
+## utils
+- `md5(text)` - calculate md5 hash
