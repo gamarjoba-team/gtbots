@@ -4,7 +4,7 @@ All bots written in JavaScript (ECMAScript 5.1).
 ## Available functions
 
 ### API
-- `updateProfile({name, description, direct, groups})` - update bot profile
+- `updateProfile({ name, description, direct, groups })` - update bot profile
 - `sendMessage(chatId, text)` - send message to chat
 
 ### Events

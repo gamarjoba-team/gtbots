@@ -1,3 +1,5 @@
+/// <reference path="../gtlib.d.ts" />
+
 var responses = [ // taken from https://d23.com/how-to-say-i-am-groot-in-different-languages/
     "I am Groot.",
     "Jeg er Groot.",
