@@ -1,5 +1,3 @@
-/// <reference path="../gtlib.d.ts" />
-
 updateProfile({
     name: "MD5 Bot",
     description: "This bot calculated MD5 hash value for each given message",
@@ -14,5 +12,3 @@ onDirectMessage(function (message) {
         sendMessage(message.chatId, md5(message.text));
     }
 });
-
-

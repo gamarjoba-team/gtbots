@@ -1,5 +1,3 @@
 {
-  "globals": {
-    "undef": false
-  }
+  "es5" : true
 }
