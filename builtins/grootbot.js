@@ -15,7 +15,7 @@ var responses = [ // taken from https://d23.com/how-to-say-i-am-groot-in-differe
 
 updateProfile({
     name: "Groot Bot",
-    description: "This bot is Groot.",
+    description: "This bot is Groot",
     direct: true,
     groups: false
 });
