@@ -6,9 +6,7 @@ updateProfile({
 });
 
 onDirectMessage(function (message) {
-    if (message.text === "") {
-        sendMessage(message.chatId, "Your message is empty");
-    } else {
+    if (message.text !== "") {
         sendMessage(message.chatId, md5(message.text));
     }
 });
