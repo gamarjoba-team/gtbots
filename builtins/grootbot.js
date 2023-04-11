@@ -1,16 +1,30 @@
 var responses = [ // taken from https://d23.com/how-to-say-i-am-groot-in-different-languages/
-    "I am Groot.",
-    "Jeg er Groot.",
-    "Ich bin Groot.",
-    "Je s'appelle Groot.",
-    "O wau ‘o Groot.",
-    "Sono Groot.",
+    "Ben Groot'um",
     "Ego sum Groot",
-    "Jestem Groot",
     "Eu sou Groot",
+    "I am Groot",
+    "Ich bin Groot",
+    "Ik ben Groot",
+    "Io sono Groot",
+    "Jag är Groot",
+    "Je s'appelle Groot",
+    "Je suis Groot",
+    "Jeg er Groot",
+    "Jestem Groot",
+    "Mimi ni Groot",
     "O a‘u o Groot",
+    "O wau ‘o Groot",
+    "Olen Groot",
+    "Sono Groot",
+    "Soy Groot",
     "Yo soy Groot",
-    "Mimi ni Groot"
+    "Én vagyok Groot",
+    "אני גרוט",
+    "أنا جروت",
+    "मैं ग्रूट हूँ",
+    "我是格鲁特",
+    "私はグルートです",
+    "나는 그루트입니다"
 ];
 
 updateProfile({
